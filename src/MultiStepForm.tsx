@@ -322,7 +322,7 @@ const MultiStepForm = () => {
               borderRadius: '4px',
               padding: '4px 8px',
               marginBottom: '23px',
-              marginRight: '65px'
+              marginRight: '5px',
             }}
             onClick={handlePreviousStep}
             >
@@ -338,7 +338,7 @@ const MultiStepForm = () => {
             </button>
           ) : (
             <button
-              className="bg-blue-500 text-white rounded px-4 py-2"
+              className="bg-blue-500 text-white rounded px-4 py-2 mb-6 py-2"
               onClick={handleFormSubmit}
             >
               Submit
